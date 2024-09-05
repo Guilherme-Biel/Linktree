@@ -1,0 +1,58 @@
+* {
+    /* Reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body {
+    background-color: #A7E372;
+}
+
+.cabecalho {
+    display: flex; /* Filhos um ao lado do outro */
+    flex-direction: column; /* Filhos em coluna */
+    gap: 18px; /* Espaçamento entre os filhos */
+    align-items: center; /* Alinhar os filhos ao centro "EIXO X" */
+}
+
+.cabecalho img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: black 3px solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+}
+
+.cabecalho h1 {
+    font-size: 20px; 
+}
+
+.cabecalho p {
+    font-size: 16px;
+}
+
+.div {
+    
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+.btns a {
+    display: flex;
+    justify-content: center;/* ALINHAR EIXO X */
+    padding: 16px;
+    border-radius: 58px;
+    border: black 2px solid;
+    box-shadow: 5px 5px 0px;
+    width: 235px;
+    height: ;
+    background-color: #E3D227;
+    color: black;
+    text-decoration: none;/* tirar a decoração da tag A */
+    
+}
